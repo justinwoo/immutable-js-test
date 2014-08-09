@@ -1,0 +1,23 @@
+{
+  "name": "immutable-js-test",
+  "version": "0.0.0",
+  "description": "test for immutable-js across different browser targets",
+  "main": "index.js",
+  "readme": "see README.md",
+  "scripts": {
+    "pretest": "webpack -c",
+    "test": "karma start --single-run"
+  },
+  "author": "Justin Woo",
+  "license": "MIT",
+  "dependencies": {
+    "immutable": "^2.0.6"
+  },
+  "devDependencies": {
+    "karma": "^0.12.21",
+    "karma-cli": "0.0.4",
+    "karma-jasmine": "^0.1.5",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "webpack": "^1.3.3-beta1"
+  }
+}
