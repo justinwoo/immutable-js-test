@@ -1,5 +1,8 @@
 #Immutable-JS test
 
+[![Build
+Status](https://travis-ci.org/kimagure/immutable-js-test.svg?branch=master)](https://travis-ci.org/kimagure/immutable-js-test)
+
 Uses Karma to run a basic Jasmine test for definition
 
 ##Installation
